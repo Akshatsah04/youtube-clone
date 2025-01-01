@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 56px;
+    background-color: #0f0f0f;
+    display: flex;
+}
+
+.first{
+    height: 56px;
+    width: 169px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.threeline{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sym1{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube{
+    height: 56px;
+    width: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    height: 22px;
+    width: 93px;
+    background-image: url(img/you.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second{
+    height: 56px;
+    width: 732px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbox{
+    height: 40px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    height: 40px;
+    width: 536px;
+    border: 1px solid #303030;
+    background-color: #0f0f0f;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 16px;
+}
+
+.icon2{
+    height: 38px;
+    width: 64px;
+    border: 1px solid #303030;
+    background-color: #222222;
+    color: #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius:20px ;
+    border-left: 0px;
+}
