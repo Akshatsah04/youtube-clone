@@ -7,6 +7,7 @@
     height: 56px;
     background-color: #0f0f0f;
     display: flex;
+    justify-content: space-between;
 }
 
 .first{
@@ -15,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 16px;
 }
 
 .threeline{
@@ -87,4 +89,68 @@
     border-top-right-radius: 20px ;
     border-bottom-right-radius:20px ;
     border-left: 0px;
+}
+
+.voice{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third{
+    height: 56px;
+    width: 213.19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.create{
+    width: 97.19px;
+    height: 36px;
+    background-color: #303030;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.bell{
+    width: 40px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon3{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    width: 60px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pho{
+    width: 32px;
+    height: 32px;
+    background-image: url(img/profile.png);
+    background-size: contain;
 }
