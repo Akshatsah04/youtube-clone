@@ -77,6 +77,22 @@
     font-size: 16px;
 }
 
+@media(max-width: 1086px){
+    .search{
+        width: 83.75%;
+    }
+    .second{
+        width: 62.61%;
+    }
+    .searchbox{
+        width: 94.11%;
+    }
+}
+
+@media(max-width:980px){
+
+}
+
 .icon2{
     height: 38px;
     width: 64px;
@@ -108,6 +124,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 16px;
+    margin-left: 16px;
 }
 
 .create{
