@@ -197,7 +197,7 @@
 
 .sidemenu{
     width: 64px;
-    border: 1px solid black;
+    border: 1px solid #0f0f0f;
     height: 100vh;
     display: inline-flex;
     margin-top: 56px;
@@ -244,17 +244,61 @@
 .sidemenu2{
     width: 240px;
     height: 100vh;
-    border: 1px solid black;
+    border: 1px solid #0f0f0f;
     display: none;
     margin-top: 56px;
     position: fixed;
-    background-color: black;
+    background-color: #0f0f0f;
+}
+
+.block1{
+    width: 240px;
+    height: 410px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+}
+
+.shorts2{
+
+    width: 204px;
+    height: 40px;
+    padding-left: 12px;
+    /* padding-right: 12px; */
+    background-color: #0f0f0f;
+    display: flex;
+}
+
+.i{
+    height: 40px;
+    width: 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.shicon2{
+    height: 24px;
+    width: 24px;
+    
+}
+
+.shtext{
+    height: 40px;
+    width: 132px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+
 }
 
 .con{
     width: 500px;
     height: 1000px;
-    margin: 200px;
+    margin: 250px;
     border: 2px solid black;
     display: inline-flex;
     margin-right: 0;
