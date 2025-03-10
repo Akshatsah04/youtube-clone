@@ -257,7 +257,8 @@
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 12px;
-    background-color: white;
+    padding-top: 12px;
+    background-color: #0f0f0f;
 }
 
 .shorts2{
@@ -276,6 +277,7 @@
     color: white;
     display: flex;
     align-items: center;
+    font-weight: bold;
 
 }
 
@@ -302,4 +304,11 @@
     border: 2px solid black;
     display: inline-flex;
     margin-right: 0;
+}
+
+.line{
+    height: 0.1px;
+    border-color: #000000;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
